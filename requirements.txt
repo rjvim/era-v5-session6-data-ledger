@@ -1,0 +1,2 @@
+tokenizers>=0.20
+indic_transliteration>=2.3

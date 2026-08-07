@@ -1,0 +1,48 @@
+{
+  "packing_utilization": 0.8191,
+  "useful_loss_bearing_tokens": 180230,
+  "throughput_tokens_per_sec": 55840.96,
+  "total_wallclock_seconds": 0.4241,
+  "throughput_note": "real measured wall-clock across the training loop, with a 0.01s simulated per-step compute delay standing in for a real forward/backward pass (this loop does no real compute, so an unmodified measurement would be meaninglessly fast, not representative of anything)",
+  "curriculum_target": {
+    "en": 0.7,
+    "code": 0.2,
+    "hi": 0.1
+  },
+  "realized_batch_mix": {
+    "en": 0.7812,
+    "code": 0.1562,
+    "hi": 0.0625
+  },
+  "per_lane_packing": {
+    "en": {
+      "policy": {
+        "seq_len": 128,
+        "on_oversized": "truncate"
+      },
+      "num_packs": 895,
+      "skipped_oversized": 0
+    },
+    "code": {
+      "policy": {
+        "seq_len": 256,
+        "on_oversized": "skip"
+      },
+      "num_packs": 274,
+      "skipped_oversized": 74
+    },
+    "hi": {
+      "policy": {
+        "seq_len": 128,
+        "on_oversized": "truncate"
+      },
+      "num_packs": 276,
+      "skipped_oversized": 0
+    }
+  },
+  "fertility_by_lane": {
+    "en": 1.175,
+    "hi": 1.118,
+    "code": 1.876
+  }
+}

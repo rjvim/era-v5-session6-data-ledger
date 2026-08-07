@@ -1,0 +1,113 @@
+======================================================================
+Session 6 -- Training Data Execution System -- full demonstration
+started_at_utc: 2026-08-07T12:35:32.556231+00:00
+======================================================================
+[EVENT] reset_complete
+[EVENT] shards_created (121 shards)
+[PASS] tokenizer_hash_verified -- vocab_hash=d116f3d3749f
+[EVENT] manifests_validated
+[PASS] manifest_fields_present -- 121 shard manifest entries checked
+[EVENT] evaluation_data_blocked (229 eval docs)
+[PASS] eval_shard_blocked -- 229 eval docs blocked, 0 leaked into training
+[EVENT] mixture_compiled (target={'en': 0.7, 'code': 0.2, 'hi': 0.1})
+[EVENT] batches_packed (1445 packed sequences across 3 lanes)
+[PASS] packing_masks_present -- loss_mask/attention_mask/position_ids present on every pack
+[EVENT] opus_decisions_recorded ({'accept': 2072, 'reject': 35, 'defer': 69, 'protected_override': 274})
+[PASS] opus_decisions_recorded -- accept=2072 reject=35 defer=69 protected_override=274 (fields present on every record: True, counts accounted: True)
+[EVENT] training_started
+Starting fresh run from step 0
+step 00 | loss 2.4821 | seqs 4 | hash 64bd8bae4a7b4345 | lanes {'en': 4}
+step 01 | loss 2.2335 | seqs 4 | hash 39619bf6faaaa7f1 | lanes {'en': 4}
+step 02 | loss 2.0213 | seqs 4 | hash ef8af42ef7676cbc | lanes {'en': 4}
+step 03 | loss 1.8068 | seqs 4 | hash ec2a84ac17b948f9 | lanes {'en': 3, 'code': 1}
+step 04 | loss 1.6563 | seqs 4 | hash 3c38a35e9ff32103 | lanes {'en': 3, 'hi': 1}
+step 05 | loss 1.4578 | seqs 4 | hash b1454f55d0e81960 | lanes {'hi': 1, 'en': 2, 'code': 1}
+step 06 | loss 1.3301 | seqs 4 | hash 37524e0ee68a6ffe | lanes {'en': 3, 'code': 1}
+step 07 | loss 1.189 | seqs 4 | hash 87465e900ad0a0de | lanes {'en': 4}
+step 08 | loss 1.0903 | seqs 4 | hash e407fe27fc27bfa1 | lanes {'en': 4}
+step 09 | loss 0.9549 | seqs 4 | hash ac241e5652b1392f | lanes {'en': 4}
+step 10 | loss 0.8652 | seqs 4 | hash 93c517b343975f12 | lanes {'en': 3, 'code': 1}
+step 11 | loss 0.7779 | seqs 4 | hash fe28bb07750b3843 | lanes {'en': 3, 'code': 1}
+step 12 | loss 0.6959 | seqs 4 | hash a65ea06fe92ad4d5 | lanes {'code': 1, 'en': 2, 'hi': 1}
+step 13 | loss 0.6155 | seqs 4 | hash b7c5e85f16483e12 | lanes {'en': 3, 'code': 1}
+
+*** SIMULATED CRASH at step 13 ***
+Ledger has steps up to (and including) this one recorded.
+[EVENT] crash_simulated (at step 13)
+[PASS] checkpoint_saved -- /home/claude/v2/data_pipeline/checkpoints/latest.json
+[EVENT] run_resumed
+Ledger says last completed step = 13
+Checkpoint says step = 10, ledger_offset = 11
+Replaying 14 steps from ledger (no recomputation)...
+  [replay] step 11 | loss 0.7779 | hash fe28bb07750b3843 (read, not recomputed)
+  [replay] step 12 | loss 0.6959 | hash a65ea06fe92ad4d5 (read, not recomputed)
+  [replay] step 13 | loss 0.6155 | hash b7c5e85f16483e12 (read, not recomputed)
+
+Expected next batch hash at step 14: 01e994b97b60c439
+Resuming live training from step 14 (not step 0)
+
+[PASS] resume_next_batch_matched (produced 01e994b97b60c439 vs expected 01e994b97b60c439)
+step 14 | loss 0.5719 | seqs 4 | hash 01e994b97b60c439 | lanes {'en': 3, 'code': 1}
+step 15 | loss 0.5147 | seqs 4 | hash a31ef1455c4621ca | lanes {'code': 1, 'en': 3}
+step 16 | loss 0.4633 | seqs 4 | hash 2dcb289d46cc6b6f | lanes {'en': 2, 'code': 1, 'hi': 1}
+step 17 | loss 0.4169 | seqs 4 | hash 3ec04d5d5cb6fcf6 | lanes {'en': 3, 'code': 1}
+step 18 | loss 0.3752 | seqs 4 | hash 0d33cfcfbc86c41e | lanes {'en': 2, 'hi': 1, 'code': 1}
+step 19 | loss 0.3377 | seqs 4 | hash 5bdb053f26276d16 | lanes {'en': 4}
+step 20 | loss 0.3039 | seqs 4 | hash 2f1fab1423a42dc3 | lanes {'en': 3, 'code': 1}
+step 21 | loss 0.2735 | seqs 4 | hash 705371f88e5f6acc | lanes {'en': 3, 'code': 1}
+step 22 | loss 0.2462 | seqs 4 | hash 004be6330b4a6405 | lanes {'en': 3, 'code': 1}
+step 23 | loss 0.2216 | seqs 4 | hash 612322e5025fb3f7 | lanes {'code': 2, 'en': 2}
+step 24 | loss 0.1994 | seqs 4 | hash a0f69f942e5735a3 | lanes {'en': 2, 'code': 1, 'hi': 1}
+step 25 | loss 0.1795 | seqs 4 | hash d125f0ec5e5ef7b4 | lanes {'en': 4}
+step 26 | loss 0.1615 | seqs 4 | hash 77ab83afd228e701 | lanes {'en': 4}
+step 27 | loss 0.1454 | seqs 4 | hash bbc26a7af4af7159 | lanes {'en': 3, 'hi': 1}
+step 28 | loss 0.1308 | seqs 4 | hash bdef813ddf8b43f5 | lanes {'en': 4}
+step 29 | loss 0.1178 | seqs 4 | hash e2c3f06376b30b1f | lanes {'code': 4}
+step 30 | loss 0.106 | seqs 4 | hash a113c1dda20ddebe | lanes {'en': 4}
+step 31 | loss 0.0954 | seqs 4 | hash 952ba61f277f2d43 | lanes {'en': 4}
+step 32 | loss 0.0858 | seqs 4 | hash a7fb56ca7fe739b1 | lanes {'en': 4}
+step 33 | loss 0.0773 | seqs 4 | hash 64c135e93f12fc16 | lanes {'en': 3, 'code': 1}
+step 34 | loss 0.0695 | seqs 4 | hash 29ff442e8f23c47b | lanes {'en': 4}
+step 35 | loss 0.0626 | seqs 4 | hash 5f346f5f4e57785a | lanes {'en': 2, 'code': 1, 'hi': 1}
+step 36 | loss 0.0563 | seqs 4 | hash 1b3bec997ae2f07a | lanes {'en': 4}
+step 37 | loss 0.0507 | seqs 4 | hash 3ec324ffbb302e6e | lanes {'en': 3, 'code': 1}
+step 38 | loss 0.0456 | seqs 4 | hash 1181388c068be44a | lanes {'en': 3, 'hi': 1}
+step 39 | loss 0.0411 | seqs 4 | hash 000ff96fe08fc638 | lanes {'en': 3, 'hi': 1}
+
+Training complete. Full ledger is a gapless, ordered record 0..N.
+[PASS] resume_next_batch_matched -- Expected vs. produced batch hash matched
+[EVENT] historical_stream_replayed (interval (5, 10))
+  [replay-verify] step 5: doc_ids=MATCH token_span=MATCH (640 vs 640) hash=MATCH (b1454f55d0e81960 vs b1454f55d0e81960)
+  [replay-verify] step 6: doc_ids=MATCH token_span=MATCH (640 vs 640) hash=MATCH (37524e0ee68a6ffe vs 37524e0ee68a6ffe)
+  [replay-verify] step 7: doc_ids=MATCH token_span=MATCH (512 vs 512) hash=MATCH (87465e900ad0a0de vs 87465e900ad0a0de)
+  [replay-verify] step 8: doc_ids=MATCH token_span=MATCH (512 vs 512) hash=MATCH (e407fe27fc27bfa1 vs e407fe27fc27bfa1)
+  [replay-verify] step 9: doc_ids=MATCH token_span=MATCH (512 vs 512) hash=MATCH (ac241e5652b1392f vs ac241e5652b1392f)
+  [replay-verify] step 10: doc_ids=MATCH token_span=MATCH (640 vs 640) hash=MATCH (93c517b343975f12 vs 93c517b343975f12)
+[PASS] replay_hash_matched (steps 5-10, batch ids + token spans + hashes all verified)
+[PASS] replay_hash_matched -- 6 steps re-verified
+[EVENT] branch_forked (from step 20)
+Forked lineage 'A': copied 21 rows (steps 0-20) from parent ledger
+[PASS] fork_prefix_matched (fork 'A' vs parent, steps 0-20)
+  [fork-A] step 21 | loss 0.1739 | hash 705371f88e5f6acc
+  [fork-A] step 22 | loss 0.113 | hash 004be6330b4a6405
+  [fork-A] step 23 | loss 0.1439 | hash 612322e5025fb3f7
+branch forked: 'A' now diverges independently from step 21
+[PASS] fork_prefix_matched -- /home/claude/v2/data_pipeline/consumption_ledger_fork_A.jsonl
+[PASS] learning_ledger_linked -- 40 rows, each loss tied to source_doc_ids
+[EVENT] audit_completed
+[EVENT] performance_measured
+[PASS] throughput_measured -- 55840.96 tokens/sec
+[PASS] mixture_compiled_and_sampled -- target={'en': 0.7, 'code': 0.2, 'hi': 0.1} realized={'en': 0.7812, 'code': 0.1562, 'hi': 0.0625} (tolerance=0.5)
+
+======================================================================
+OVERALL: ALL CHECKS PASSED
+  [PASS] Tokenizer integrity: Manifest record (tokenizer_vocab_hash on every shard)
+  [PASS] Evaluation firewall: Blocked-shard event (this run.log line)
+  [PASS] Packing correctness: Packed-batch report (performance.json)
+  [PASS] OPUS audit trail: Candidate decision records (opus_decision field on every shard record)
+  [PASS] Crash recovery: Expected and resumed batch ids (run.log)
+  [PASS] Replay: Original and replay hashes (run.log)
+  [PASS] Learning trace: Loss linked to source data (learning_ledger.jsonl)
+  [PASS] Throughput: Performance report (performance.json)
+  [PASS] Mixture compliance: Planned versus actual shares (performance.json)
+======================================================================

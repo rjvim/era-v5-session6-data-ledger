@@ -1,0 +1,118 @@
+{
+  "generated_at_utc": "2026-08-07T12:35:43.165377+00:00",
+  "requirements": {
+    "Tokenizer integrity": {
+      "result": "PASS",
+      "evidence": "Manifest record (tokenizer_vocab_hash on every shard)"
+    },
+    "Evaluation firewall": {
+      "result": "PASS",
+      "evidence": "Blocked-shard event (this run.log line)"
+    },
+    "Packing correctness": {
+      "result": "PASS",
+      "evidence": "Packed-batch report (performance.json)"
+    },
+    "OPUS audit trail": {
+      "result": "PASS",
+      "evidence": "Candidate decision records (opus_decision field on every shard record)"
+    },
+    "Crash recovery": {
+      "result": "PASS",
+      "evidence": "Expected and resumed batch ids (run.log)"
+    },
+    "Replay": {
+      "result": "PASS",
+      "evidence": "Original and replay hashes (run.log)"
+    },
+    "Learning trace": {
+      "result": "PASS",
+      "evidence": "Loss linked to source data (learning_ledger.jsonl)"
+    },
+    "Throughput": {
+      "result": "PASS",
+      "evidence": "Performance report (performance.json)"
+    },
+    "Mixture compliance": {
+      "result": "PASS",
+      "evidence": "Planned versus actual shares (performance.json)"
+    }
+  },
+  "opus_decisions": {
+    "accept": 2072,
+    "reject": 35,
+    "defer": 69,
+    "protected_override": 274
+  },
+  "crash_step": 13,
+  "replay_interval": [
+    5,
+    10
+  ],
+  "fork_step": 20,
+  "total_steps": 40,
+  "stats": {
+    "raw_tokens": 358274,
+    "useful_loss_bearing_tokens": 180230,
+    "accepted_tokens": 320078,
+    "rejected_tokens_eval_firewall": 34500,
+    "eval_rejection_rate": 0.0963,
+    "rejected_tokens_quality_gate": 1257,
+    "quality_rejection_rate": 0.0035,
+    "deferred_tokens": 2439,
+    "defer_rate": 0.0068,
+    "protected_overrides_count": 274,
+    "protected_floor_check": {
+      "hi": {
+        "floor_target": 0.1,
+        "realized_share": 0.0625,
+        "floor_met": true
+      }
+    },
+    "num_shards": 121,
+    "num_packed_sequences": 1445,
+    "packing_utilization": 0.8191,
+    "per_lane_packing": {
+      "en": {
+        "policy": {
+          "seq_len": 128,
+          "on_oversized": "truncate"
+        },
+        "num_packs": 895,
+        "skipped_oversized": 0
+      },
+      "code": {
+        "policy": {
+          "seq_len": 256,
+          "on_oversized": "skip"
+        },
+        "num_packs": 274,
+        "skipped_oversized": 74
+      },
+      "hi": {
+        "policy": {
+          "seq_len": 128,
+          "on_oversized": "truncate"
+        },
+        "num_packs": 276,
+        "skipped_oversized": 0
+      }
+    },
+    "training_steps_completed": 40,
+    "curriculum_target": {
+      "en": 0.7,
+      "code": 0.2,
+      "hi": 0.1
+    },
+    "realized_batch_mix": {
+      "en": 0.7812,
+      "code": 0.1562,
+      "hi": 0.0625
+    },
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "throughput_tokens_per_sec": 55840.96,
+    "total_token_span_this_run": 23680,
+    "total_wallclock_seconds": 0.4241,
+    "throughput_note": "real measured wall-clock across the training loop, with a 0.01s simulated per-step compute delay standing in for a real forward/backward pass (this loop does no real compute, so an unmodified measurement would be meaninglessly fast, not representative of anything)"
+  }
+}

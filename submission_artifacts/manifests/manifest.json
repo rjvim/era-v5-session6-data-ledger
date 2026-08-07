@@ -1,0 +1,2508 @@
+[
+  {
+    "shard_id": "shard_0000_4434ca1c6813d41d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0000_4434ca1c6813d41d.jsonl",
+    "hash": "4434ca1c6813d41d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2897,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0001_4685f0930220a10e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0001_4685f0930220a10e.jsonl",
+    "hash": "4685f0930220a10e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3055,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0002_2b4646b1130a3faf",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0002_2b4646b1130a3faf.jsonl",
+    "hash": "2b4646b1130a3faf",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3308,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0003_9695c06e5faf3a38",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0003_9695c06e5faf3a38.jsonl",
+    "hash": "9695c06e5faf3a38",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4552,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0004_e123b21f70177f98",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0004_e123b21f70177f98.jsonl",
+    "hash": "e123b21f70177f98",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2175,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0005_5e847efd8482e945",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0005_5e847efd8482e945.jsonl",
+    "hash": "5e847efd8482e945",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1736,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0006_f902b19f3f69ca23",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0006_f902b19f3f69ca23.jsonl",
+    "hash": "f902b19f3f69ca23",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 5927,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0007_824a41aedb509e05",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0007_824a41aedb509e05.jsonl",
+    "hash": "824a41aedb509e05",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2513,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0008_86f79768fe4accb0",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0008_86f79768fe4accb0.jsonl",
+    "hash": "86f79768fe4accb0",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2287,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0009_b658627aaf624d2a",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0009_b658627aaf624d2a.jsonl",
+    "hash": "b658627aaf624d2a",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2333,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 2,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0010_2787f2de8c2f00a8",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0010_2787f2de8c2f00a8.jsonl",
+    "hash": "2787f2de8c2f00a8",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2465,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0011_284102046d18a069",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0011_284102046d18a069.jsonl",
+    "hash": "284102046d18a069",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2640,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0012_2f60fc5401822950",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0012_2f60fc5401822950.jsonl",
+    "hash": "2f60fc5401822950",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2541,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0013_0778d8b392f1d21d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0013_0778d8b392f1d21d.jsonl",
+    "hash": "0778d8b392f1d21d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1857,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0014_8a9617930ce1d22c",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0014_8a9617930ce1d22c.jsonl",
+    "hash": "8a9617930ce1d22c",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3021,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0015_6fa1167529792c5f",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0015_6fa1167529792c5f.jsonl",
+    "hash": "6fa1167529792c5f",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 5016,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0016_21882336427882c8",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0016_21882336427882c8.jsonl",
+    "hash": "21882336427882c8",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3089,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0017_c387cd5657654214",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0017_c387cd5657654214.jsonl",
+    "hash": "c387cd5657654214",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4075,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0018_b186e5308513b7fc",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0018_b186e5308513b7fc.jsonl",
+    "hash": "b186e5308513b7fc",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1832,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0019_834c5ee413ea7bae",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0019_834c5ee413ea7bae.jsonl",
+    "hash": "834c5ee413ea7bae",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3599,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0020_977b44ad20a2e4f3",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0020_977b44ad20a2e4f3.jsonl",
+    "hash": "977b44ad20a2e4f3",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2399,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0021_11409a6655aa5324",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0021_11409a6655aa5324.jsonl",
+    "hash": "11409a6655aa5324",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 6715,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 7
+  },
+  {
+    "shard_id": "shard_0022_fb13c2942a0c1088",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0022_fb13c2942a0c1088.jsonl",
+    "hash": "fb13c2942a0c1088",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2641,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0023_6482e1f96c117656",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0023_6482e1f96c117656.jsonl",
+    "hash": "6482e1f96c117656",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3138,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0024_e6b99517425cb688",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0024_e6b99517425cb688.jsonl",
+    "hash": "e6b99517425cb688",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4416,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0025_9e252c1d86836f00",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0025_9e252c1d86836f00.jsonl",
+    "hash": "9e252c1d86836f00",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1987,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0026_3e3664f933560c25",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0026_3e3664f933560c25.jsonl",
+    "hash": "3e3664f933560c25",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4395,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0027_762db681713c4b2d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0027_762db681713c4b2d.jsonl",
+    "hash": "762db681713c4b2d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2101,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0028_b29309d7b6717634",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0028_b29309d7b6717634.jsonl",
+    "hash": "b29309d7b6717634",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3367,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0029_43f061cb0ec718cd",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0029_43f061cb0ec718cd.jsonl",
+    "hash": "43f061cb0ec718cd",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2446,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0030_ee7b82986710ccdb",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0030_ee7b82986710ccdb.jsonl",
+    "hash": "ee7b82986710ccdb",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2978,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0031_39cd735c047e3f2e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0031_39cd735c047e3f2e.jsonl",
+    "hash": "39cd735c047e3f2e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3431,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 5
+  },
+  {
+    "shard_id": "shard_0032_ced84d0203945884",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0032_ced84d0203945884.jsonl",
+    "hash": "ced84d0203945884",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2668,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0033_dc1c96afee585f80",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0033_dc1c96afee585f80.jsonl",
+    "hash": "dc1c96afee585f80",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3134,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0034_da3ab427b8c2be64",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0034_da3ab427b8c2be64.jsonl",
+    "hash": "da3ab427b8c2be64",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2251,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0035_7b60105a6f4d5fea",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0035_7b60105a6f4d5fea.jsonl",
+    "hash": "7b60105a6f4d5fea",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3166,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0036_708b1869d73256b5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0036_708b1869d73256b5.jsonl",
+    "hash": "708b1869d73256b5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2579,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0037_0953fc2ffa174979",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0037_0953fc2ffa174979.jsonl",
+    "hash": "0953fc2ffa174979",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3049,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0038_b5f8a3e45a1abf7a",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0038_b5f8a3e45a1abf7a.jsonl",
+    "hash": "b5f8a3e45a1abf7a",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2620,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0039_a7fc82ceeb97eb66",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0039_a7fc82ceeb97eb66.jsonl",
+    "hash": "a7fc82ceeb97eb66",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2563,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0040_9bb21a4e1f46d5e4",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0040_9bb21a4e1f46d5e4.jsonl",
+    "hash": "9bb21a4e1f46d5e4",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2086,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0041_5cdfa01fcd55bca5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0041_5cdfa01fcd55bca5.jsonl",
+    "hash": "5cdfa01fcd55bca5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1988,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0042_5e052e733774423b",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0042_5e052e733774423b.jsonl",
+    "hash": "5e052e733774423b",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2762,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0043_69148ffb35191d2e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0043_69148ffb35191d2e.jsonl",
+    "hash": "69148ffb35191d2e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3444,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 6
+  },
+  {
+    "shard_id": "shard_0044_11c8fb65b3e4b425",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0044_11c8fb65b3e4b425.jsonl",
+    "hash": "11c8fb65b3e4b425",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3538,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0045_b5a14c976174d34e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0045_b5a14c976174d34e.jsonl",
+    "hash": "b5a14c976174d34e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2897,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0046_a8904c336efc820f",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0046_a8904c336efc820f.jsonl",
+    "hash": "a8904c336efc820f",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3003,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0047_7bd8e2f79384e4a3",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0047_7bd8e2f79384e4a3.jsonl",
+    "hash": "7bd8e2f79384e4a3",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1815,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0048_1ce5c25bd235a7e9",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0048_1ce5c25bd235a7e9.jsonl",
+    "hash": "1ce5c25bd235a7e9",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2600,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0049_0f99c630af7b71d7",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0049_0f99c630af7b71d7.jsonl",
+    "hash": "0f99c630af7b71d7",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2946,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0050_7f2060c616c75812",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0050_7f2060c616c75812.jsonl",
+    "hash": "7f2060c616c75812",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 7430,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0051_7c0f23eb66c0d123",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0051_7c0f23eb66c0d123.jsonl",
+    "hash": "7c0f23eb66c0d123",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2536,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0052_9e92f82ec96f3d4f",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0052_9e92f82ec96f3d4f.jsonl",
+    "hash": "9e92f82ec96f3d4f",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2415,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0053_83862affb091701f",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0053_83862affb091701f.jsonl",
+    "hash": "83862affb091701f",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1698,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0054_8273ebea241b8462",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0054_8273ebea241b8462.jsonl",
+    "hash": "8273ebea241b8462",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2514,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0055_78cccc2349f33a09",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0055_78cccc2349f33a09.jsonl",
+    "hash": "78cccc2349f33a09",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2499,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0056_f3882caccc4e4df6",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0056_f3882caccc4e4df6.jsonl",
+    "hash": "f3882caccc4e4df6",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1968,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0057_15e125f4f1299105",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0057_15e125f4f1299105.jsonl",
+    "hash": "15e125f4f1299105",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2341,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0058_f0ddfb0879703ab5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0058_f0ddfb0879703ab5.jsonl",
+    "hash": "f0ddfb0879703ab5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3409,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0059_a8bcc471c41cce3e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0059_a8bcc471c41cce3e.jsonl",
+    "hash": "a8bcc471c41cce3e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2250,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0060_c2df886c7fd4be71",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0060_c2df886c7fd4be71.jsonl",
+    "hash": "c2df886c7fd4be71",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2151,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0061_b75f79112c1a8dd1",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0061_b75f79112c1a8dd1.jsonl",
+    "hash": "b75f79112c1a8dd1",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2368,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0062_6f14a574127ff350",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0062_6f14a574127ff350.jsonl",
+    "hash": "6f14a574127ff350",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2471,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0063_f1339e2e23e9d6b1",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0063_f1339e2e23e9d6b1.jsonl",
+    "hash": "f1339e2e23e9d6b1",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3285,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0064_6b42e9a0d62b5fde",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0064_6b42e9a0d62b5fde.jsonl",
+    "hash": "6b42e9a0d62b5fde",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2726,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0065_644458802fd5d70c",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0065_644458802fd5d70c.jsonl",
+    "hash": "644458802fd5d70c",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2247,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0066_7bc9a0af25d75ee9",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0066_7bc9a0af25d75ee9.jsonl",
+    "hash": "7bc9a0af25d75ee9",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3425,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0067_ee4ec3cb82aadbfa",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0067_ee4ec3cb82aadbfa.jsonl",
+    "hash": "ee4ec3cb82aadbfa",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2737,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0068_ddb062fc0abbf4d7",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0068_ddb062fc0abbf4d7.jsonl",
+    "hash": "ddb062fc0abbf4d7",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4819,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0069_61b67004adb7e2e1",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0069_61b67004adb7e2e1.jsonl",
+    "hash": "61b67004adb7e2e1",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 7296,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0070_9e04d20e2a6a0930",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0070_9e04d20e2a6a0930.jsonl",
+    "hash": "9e04d20e2a6a0930",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2883,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0071_39f046ad0b5115e9",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0071_39f046ad0b5115e9.jsonl",
+    "hash": "39f046ad0b5115e9",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3077,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0072_6f603d0be1902ae0",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0072_6f603d0be1902ae0.jsonl",
+    "hash": "6f603d0be1902ae0",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3020,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0073_c3af05ed83660079",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0073_c3af05ed83660079.jsonl",
+    "hash": "c3af05ed83660079",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2447,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0074_f00e565b199b1972",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0074_f00e565b199b1972.jsonl",
+    "hash": "f00e565b199b1972",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2222,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0075_93498825e9829407",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0075_93498825e9829407.jsonl",
+    "hash": "93498825e9829407",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4858,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0076_027d4384074f290d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0076_027d4384074f290d.jsonl",
+    "hash": "027d4384074f290d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3196,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0077_025aca84518f9c46",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0077_025aca84518f9c46.jsonl",
+    "hash": "025aca84518f9c46",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2558,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0078_27859db439f807b9",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0078_27859db439f807b9.jsonl",
+    "hash": "27859db439f807b9",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3203,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0079_4c29544360aa3cc5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0079_4c29544360aa3cc5.jsonl",
+    "hash": "4c29544360aa3cc5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3251,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0080_7e3f24245e428f8e",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0080_7e3f24245e428f8e.jsonl",
+    "hash": "7e3f24245e428f8e",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3347,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0081_5d1c9a3509e7b80d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0081_5d1c9a3509e7b80d.jsonl",
+    "hash": "5d1c9a3509e7b80d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3766,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0082_e4cf651471782f0d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0082_e4cf651471782f0d.jsonl",
+    "hash": "e4cf651471782f0d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1968,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0083_cfa55266177f738b",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0083_cfa55266177f738b.jsonl",
+    "hash": "cfa55266177f738b",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4560,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0084_9b1ab03c88c9a18d",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0084_9b1ab03c88c9a18d.jsonl",
+    "hash": "9b1ab03c88c9a18d",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1836,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0085_078cb6d74b0f5f78",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0085_078cb6d74b0f5f78.jsonl",
+    "hash": "078cb6d74b0f5f78",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2170,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0086_1aa1aa2c6ccbba1a",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0086_1aa1aa2c6ccbba1a.jsonl",
+    "hash": "1aa1aa2c6ccbba1a",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3419,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0087_eec4884f015e2874",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0087_eec4884f015e2874.jsonl",
+    "hash": "eec4884f015e2874",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2474,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0088_ec975bc70f33b344",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0088_ec975bc70f33b344.jsonl",
+    "hash": "ec975bc70f33b344",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3346,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0089_911fcaaa05819bbe",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0089_911fcaaa05819bbe.jsonl",
+    "hash": "911fcaaa05819bbe",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3760,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0090_13d34ffc421614e6",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0090_13d34ffc421614e6.jsonl",
+    "hash": "13d34ffc421614e6",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1800,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0091_f069f7b183f601a5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0091_f069f7b183f601a5.jsonl",
+    "hash": "f069f7b183f601a5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2411,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 3,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0092_0c69559359e43900",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0092_0c69559359e43900.jsonl",
+    "hash": "0c69559359e43900",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2140,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0093_cdad8f25512ed0ce",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0093_cdad8f25512ed0ce.jsonl",
+    "hash": "cdad8f25512ed0ce",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 4898,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 2,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0094_46e0c013066db6ec",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0094_46e0c013066db6ec.jsonl",
+    "hash": "46e0c013066db6ec",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1881,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0095_5a652d49b2cbf8b4",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0095_5a652d49b2cbf8b4.jsonl",
+    "hash": "5a652d49b2cbf8b4",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3232,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0096_b4be72f158415fd4",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0096_b4be72f158415fd4.jsonl",
+    "hash": "b4be72f158415fd4",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1854,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0097_cda0f4cd0db2f49c",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0097_cda0f4cd0db2f49c.jsonl",
+    "hash": "cda0f4cd0db2f49c",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3390,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0098_ac9aefc8308c8571",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0098_ac9aefc8308c8571.jsonl",
+    "hash": "ac9aefc8308c8571",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2829,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0099_c1de7faf42916ec4",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0099_c1de7faf42916ec4.jsonl",
+    "hash": "c1de7faf42916ec4",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2225,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0100_cc6249e2090d58c6",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0100_cc6249e2090d58c6.jsonl",
+    "hash": "cc6249e2090d58c6",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3802,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0101_1faead76c13e9f5f",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0101_1faead76c13e9f5f.jsonl",
+    "hash": "1faead76c13e9f5f",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3589,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0102_85ff0c9f112f60d2",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0102_85ff0c9f112f60d2.jsonl",
+    "hash": "85ff0c9f112f60d2",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3034,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0103_495371342d58aae6",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0103_495371342d58aae6.jsonl",
+    "hash": "495371342d58aae6",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2005,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0104_723ca6cd3ca365a4",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0104_723ca6cd3ca365a4.jsonl",
+    "hash": "723ca6cd3ca365a4",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2439,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0105_adbdbde9d2dc12e9",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0105_adbdbde9d2dc12e9.jsonl",
+    "hash": "adbdbde9d2dc12e9",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3941,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0106_fbe6d4fe35bf4155",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0106_fbe6d4fe35bf4155.jsonl",
+    "hash": "fbe6d4fe35bf4155",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2309,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0107_ff5c01260aef9d1a",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0107_ff5c01260aef9d1a.jsonl",
+    "hash": "ff5c01260aef9d1a",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2246,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0108_df6dc04bc2803e84",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0108_df6dc04bc2803e84.jsonl",
+    "hash": "df6dc04bc2803e84",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 1614,
+    "lanes": [
+      "code",
+      "en"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 0
+  },
+  {
+    "shard_id": "shard_0109_91d3620ee1b75f3c",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0109_91d3620ee1b75f3c.jsonl",
+    "hash": "91d3620ee1b75f3c",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2131,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0110_480d67a3b69e4545",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0110_480d67a3b69e4545.jsonl",
+    "hash": "480d67a3b69e4545",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2768,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0111_11f963651fdb5cfb",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0111_11f963651fdb5cfb.jsonl",
+    "hash": "11f963651fdb5cfb",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2595,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 2,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0112_3456cf8581072eb0",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0112_3456cf8581072eb0.jsonl",
+    "hash": "3456cf8581072eb0",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3209,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0113_6f302976f238f7c3",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0113_6f302976f238f7c3.jsonl",
+    "hash": "6f302976f238f7c3",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3275,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 5
+  },
+  {
+    "shard_id": "shard_0114_9c741e4f0be32eb5",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0114_9c741e4f0be32eb5.jsonl",
+    "hash": "9c741e4f0be32eb5",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 3007,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 4
+  },
+  {
+    "shard_id": "shard_0115_13a3629251156404",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0115_13a3629251156404.jsonl",
+    "hash": "13a3629251156404",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 5190,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 3
+  },
+  {
+    "shard_id": "shard_0116_1a034678e50bb840",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0116_1a034678e50bb840.jsonl",
+    "hash": "1a034678e50bb840",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2530,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0117_a4f0ac285ecc3dca",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0117_a4f0ac285ecc3dca.jsonl",
+    "hash": "a4f0ac285ecc3dca",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2434,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0118_d831bdffa2a57d0c",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0118_d831bdffa2a57d0c.jsonl",
+    "hash": "d831bdffa2a57d0c",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2628,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 1,
+    "protected_overrides": 1
+  },
+  {
+    "shard_id": "shard_0119_0e863beb5d16c302",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0119_0e863beb5d16c302.jsonl",
+    "hash": "0e863beb5d16c302",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 20,
+    "num_tokens": 2405,
+    "lanes": [
+      "code",
+      "en",
+      "hi"
+    ],
+    "splits": [
+      "eval",
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": true,
+    "quality_rejects_final": 0,
+    "protected_overrides": 2
+  },
+  {
+    "shard_id": "shard_0120_c6d79d75fd61c351",
+    "path": "/home/claude/v2/data_pipeline/shards/shard_0120_c6d79d75fd61c351.jsonl",
+    "hash": "c6d79d75fd61c351",
+    "tokenizer_vocab_hash": "d116f3d3749f",
+    "num_docs": 5,
+    "num_tokens": 476,
+    "lanes": [
+      "en"
+    ],
+    "splits": [
+      "train"
+    ],
+    "eval_only": false,
+    "contains_eval": false,
+    "quality_rejects_final": 0,
+    "protected_overrides": 0
+  }
+]

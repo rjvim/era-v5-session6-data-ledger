@@ -1,0 +1,40 @@
+{"step": 0, "loss": 2.4821, "source_doc_ids": ["paap_4", "paap_200", "paap_1037", "paap_853", "paap_431", "paap_714"], "batch_hash": "64bd8bae4a7b4345"}
+{"step": 1, "loss": 2.2335, "source_doc_ids": ["paap_91", "paap_399", "paap_1100", "paap_573", "paap_576", "paap_364"], "batch_hash": "39619bf6faaaa7f1"}
+{"step": 2, "loss": 2.0213, "source_doc_ids": ["paap_699", "paap_874", "paap_457", "paap_178"], "batch_hash": "ef8af42ef7676cbc"}
+{"step": 3, "loss": 1.8068, "source_doc_ids": ["paap_819", "paap_911", "code_900", "code_556", "code_890", "code_407", "paap_765", "paap_753"], "batch_hash": "ec2a84ac17b948f9"}
+{"step": 4, "loss": 1.6563, "source_doc_ids": ["paap_333", "sangraha_hin_5858d8459aeceef69801777a7858761fa954fc42fb256c2ce7e885343d509dc7", "paap_496", "paap_1071", "paap_334"], "batch_hash": "3c38a35e9ff32103"}
+{"step": 5, "loss": 1.4578, "source_doc_ids": ["sangraha_hin_63ae8ff08548ae2828dd43bb36563800e320fde11882eebfa7e7636a87ed1080", "paap_966", "code_921", "code_886", "paap_805"], "batch_hash": "b1454f55d0e81960"}
+{"step": 6, "loss": 1.3301, "source_doc_ids": ["paap_518", "paap_1025", "paap_137", "code_898", "code_69", "code_679"], "batch_hash": "37524e0ee68a6ffe"}
+{"step": 7, "loss": 1.189, "source_doc_ids": ["paap_879", "paap_193", "paap_656", "paap_1065", "paap_215"], "batch_hash": "87465e900ad0a0de"}
+{"step": 8, "loss": 1.0903, "source_doc_ids": ["paap_49", "paap_746", "paap_206", "paap_1044", "paap_267", "paap_412"], "batch_hash": "e407fe27fc27bfa1"}
+{"step": 9, "loss": 0.9549, "source_doc_ids": ["paap_195", "paap_275", "paap_264", "paap_1", "paap_138"], "batch_hash": "ac241e5652b1392f"}
+{"step": 10, "loss": 0.8652, "source_doc_ids": ["paap_750", "paap_809", "code_848", "code_706", "paap_135", "paap_45"], "batch_hash": "93c517b343975f12"}
+{"step": 11, "loss": 0.7779, "source_doc_ids": ["paap_307", "paap_1063", "paap_794", "code_461", "code_651"], "batch_hash": "fe28bb07750b3843"}
+{"step": 12, "loss": 0.6959, "source_doc_ids": ["code_145", "code_508", "code_534", "code_176", "paap_183", "sangraha_hin_efc6de76b633a6cab1bce432a414648077072524", "paap_194"], "batch_hash": "a65ea06fe92ad4d5"}
+{"step": 13, "loss": 0.6155, "source_doc_ids": ["paap_126", "paap_65", "code_324", "code_363", "code_222", "paap_979", "paap_369"], "batch_hash": "b7c5e85f16483e12"}
+{"step": 14, "loss": 0.5719, "source_doc_ids": ["paap_775", "paap_417", "code_963", "code_875", "code_595", "paap_1120"], "batch_hash": "01e994b97b60c439"}
+{"step": 15, "loss": 0.5147, "source_doc_ids": ["code_429", "code_858", "code_813", "code_693", "paap_996", "paap_523", "paap_152"], "batch_hash": "a31ef1455c4621ca"}
+{"step": 16, "loss": 0.4633, "source_doc_ids": ["paap_422", "paap_924", "code_110", "sangraha_hin_7528f00e4aa5227810369b1ce9b41b1b109afa08"], "batch_hash": "2dcb289d46cc6b6f"}
+{"step": 17, "loss": 0.4169, "source_doc_ids": ["paap_504", "paap_486", "paap_246", "paap_705", "paap_36", "code_1", "code_270", "code_779", "code_669"], "batch_hash": "3ec04d5d5cb6fcf6"}
+{"step": 18, "loss": 0.3752, "source_doc_ids": ["paap_1080", "sangraha_hin_161fc92ce00d3432d896dc92e1eac5eebf07bf4a", "code_821", "code_338", "code_722", "code_83", "paap_118"], "batch_hash": "0d33cfcfbc86c41e"}
+{"step": 19, "loss": 0.3377, "source_doc_ids": ["paap_345", "paap_112", "paap_757", "paap_400"], "batch_hash": "5bdb053f26276d16"}
+{"step": 20, "loss": 0.3039, "source_doc_ids": ["paap_689", "paap_74", "paap_548", "code_489", "code_465"], "batch_hash": "2f1fab1423a42dc3"}
+{"step": 21, "loss": 0.2735, "source_doc_ids": ["paap_949", "paap_303", "paap_272", "code_530", "code_635"], "batch_hash": "705371f88e5f6acc"}
+{"step": 22, "loss": 0.2462, "source_doc_ids": ["paap_955", "paap_479", "paap_857", "code_691", "code_654", "code_181"], "batch_hash": "004be6330b4a6405"}
+{"step": 23, "loss": 0.2216, "source_doc_ids": ["code_119", "code_588", "paap_630", "paap_426"], "batch_hash": "612322e5025fb3f7"}
+{"step": 24, "loss": 0.1994, "source_doc_ids": ["paap_211", "code_834", "sangraha_hin_ebb9799808c2c10a43e17b1b889919488fc4c1d6", "paap_1099"], "batch_hash": "a0f69f942e5735a3"}
+{"step": 25, "loss": 0.1795, "source_doc_ids": ["paap_1004", "paap_927", "paap_374", "paap_352"], "batch_hash": "d125f0ec5e5ef7b4"}
+{"step": 26, "loss": 0.1615, "source_doc_ids": ["paap_282", "paap_23", "paap_580", "paap_771", "paap_476"], "batch_hash": "77ab83afd228e701"}
+{"step": 27, "loss": 0.1454, "source_doc_ids": ["paap_640", "paap_72", "sangraha_hin_1dd7935553e1ca56094cdf30580622b57ecaff96", "paap_829"], "batch_hash": "bbc26a7af4af7159"}
+{"step": 28, "loss": 0.1308, "source_doc_ids": ["paap_708", "paap_709", "paap_1075", "paap_503"], "batch_hash": "bdef813ddf8b43f5"}
+{"step": 29, "loss": 0.1178, "source_doc_ids": ["code_82", "code_716", "code_910", "code_713", "code_578", "code_154", "code_315", "code_247", "code_205", "code_771", "code_529"], "batch_hash": "e2c3f06376b30b1f"}
+{"step": 30, "loss": 0.106, "source_doc_ids": ["paap_641", "paap_800", "paap_445", "paap_811"], "batch_hash": "a113c1dda20ddebe"}
+{"step": 31, "loss": 0.0954, "source_doc_ids": ["paap_537", "paap_907", "paap_115", "paap_531", "paap_484"], "batch_hash": "952ba61f277f2d43"}
+{"step": 32, "loss": 0.0858, "source_doc_ids": ["paap_104", "paap_948", "paap_306", "paap_919", "paap_568"], "batch_hash": "a7fb56ca7fe739b1"}
+{"step": 33, "loss": 0.0773, "source_doc_ids": ["paap_252", "paap_854", "paap_844", "code_109", "code_264"], "batch_hash": "64c135e93f12fc16"}
+{"step": 34, "loss": 0.0695, "source_doc_ids": ["paap_736", "paap_148", "paap_1088", "paap_33"], "batch_hash": "29ff442e8f23c47b"}
+{"step": 35, "loss": 0.0626, "source_doc_ids": ["paap_713", "paap_88", "code_820", "sangraha_hin_7580502e5ef47e7dd05d3aa82fa6f44b3fb331a3"], "batch_hash": "5f346f5f4e57785a"}
+{"step": 36, "loss": 0.0563, "source_doc_ids": ["paap_939", "paap_37", "paap_251", "paap_583"], "batch_hash": "1b3bec997ae2f07a"}
+{"step": 37, "loss": 0.0507, "source_doc_ids": ["paap_926", "paap_287", "code_397", "code_788", "code_446", "code_856", "code_191", "paap_441"], "batch_hash": "3ec324ffbb302e6e"}
+{"step": 38, "loss": 0.0456, "source_doc_ids": ["paap_1009", "sangraha_hin_807af75f95ef8dad54d2a308759feb2c59a4dbab", "paap_1050", "paap_160"], "batch_hash": "1181388c068be44a"}
+{"step": 39, "loss": 0.0411, "source_doc_ids": ["paap_667", "paap_70", "paap_1021", "paap_189", "paap_230", "sangraha_hin_3aafe9f83cc02b743fe2dbd5e78159da1bca5ad0"], "batch_hash": "000ff96fe08fc638"}
